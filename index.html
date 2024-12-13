@@ -1,0 +1,3468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-AU-Compatible" content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="path/to/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="icon" href="assets/image/BeIN-Sports-Logo.png" type="image/x-icon">
+  <link type="text/css" href="assets/css/style.css" rel="stylesheet">
+  <title>Futbol ve Spor Haberleri | Maç Özetleri | Canlı Maç Sonuçları</title>
+</head>
+
+<body>
+
+  <!-- Burada header top kısmı var -->
+  <div class="header-container">
+    <div class="header-content-left">
+
+      <div class="header-content-offcanvas">
+        <div class="header-offcanvas">
+          <button class="btn header-sidebar-button" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <a class="header-logo" href="#">
+        <img src="assets/image/logo-header.png" alt="">
+      </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg ">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              FUTBOL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Trendyol Süper Lig</a></li>
+              <li><a class="dropdown-item" href="#">Trendyol 1. Lig</a></li>
+              <li><a class="dropdown-item" href="#">Ziraat Türkiye Kupası</a></li>
+              <li><a class="dropdown-item" href="#">İngiltere Premier Ligi</a></li>
+              <li><a class="dropdown-item" href="#">UEFA Şampiyonlar Ligi</a></li>
+              <li><a class="dropdown-item" href="#">UEFA Avrupa Ligi</a></li>
+              <li><a class="dropdown-item" href="#">UEFA Konferans Ligi</a></li>
+              <li><a class="dropdown-item" href="#">Almanya Bundesliga</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 1</a></li>
+              <li><a class="dropdown-item" href="#">İspanya La Liga</a></li>
+              <li><a class="dropdown-item" href="#">İtalya Serie A</a></li>
+              <li><a class="dropdown-item" href="#">İngiltere Championship</a></li>
+              <li><a class="dropdown-item" href="#">Almanya 2. Bundesliga</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 2</a></li>
+              <li><a class="dropdown-item" href="#">Avrupa Şampiyonası</a></li>
+              <li><a class="dropdown-item" href="#">beINsquad</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              BASKETBOL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Türkiye Sigorta Basketbol Süper Ligi</a></li>
+              <li><a class="dropdown-item" href="#">Turkish Airlines EuroLeague</a></li>
+              <li><a class="dropdown-item" href="#">NBA</a></li>
+              <li><a class="dropdown-item" href="#">FIBA Şampiyonlar Ligi</a></li>
+              <li><a class="dropdown-item" href="#">Avrupa Basketbol Şampiyonası</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FORMULA 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TENİS</a>
+          </li>
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              DAHA ÇOK SPOR
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Voleybol</a></li>
+              <li><a class="dropdown-item" href="#">Güreş</a></li>
+              <li><a class="dropdown-item" href="#">Atletizm</a></li>
+              <li><a class="dropdown-item" href="#">e-Spor</a></li>
+              <li><a class="dropdown-item" href="#">Dünya Kupası</a></li>
+              <li><a class="dropdown-item" href="#">Diğer Sporlar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ÖZETLER VE GOLLER
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Trendyol Süper Lig Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Trendyol Süper Lig Goller</a></li>
+              <li><a class="dropdown-item" href="#">Trendyol 1. Lig Özetler</a></li>
+              <li><a class="dropdown-item" href="#">İngiltere Premier Lig Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Almanya Bundesliga Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 1 Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Almanya 2. Bundesliga Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 2 Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Türkiye Sigorta Basketbol Süper Ligi Özetler</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CANLI SKOR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BEIN SQUAD</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="header-content-right">
+      <div class="header-icon">
+        <a class="navbar-brand " href="#"> <img src="assets/image/live.png" alt="">
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+      <div class="header-content-offcanvas">
+        <div class="header-offcanvas">
+          <button class="btn header-sidebar-button" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticIcon" aria-controls="offcanvasTop">
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+      </div>
+      <div class="header-search">
+        <button type="button" class="btn search-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+          aria-controls="offcanvasTop">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Burada header bottom kısmı var -->
+  <div class="header-bottom">
+    <div class="header-bottom-content">
+      <div class="bottom-content-left">
+        <div class="header-news-image">
+          <img src="assets/image/hot-news-icon.png" alt="">
+        </div>
+        <div class="header-news-content">
+          <span class="header-news-date" id="newsDate"></span>
+          <a class="header-news-text" id="newsText" href="/">
+          </a>
+        </div>
+      </div>
+      <div class="bottom-content-right">
+        <button type="button" class="btn" id="prevBtn">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button type="button" class="btn" id="nextBtn">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+  <!-- List kısmı -->
+  <div class="offcanvas offcanvas-start header-offcanvas-container" tabindex="-1" id="staticBackdrop"
+    aria-labelledby="staticBackdropLabel" data-bs-auto-open="false">
+
+    <div class="header-offcanvas-top">
+      <div class="header-offcanvas-content-close">
+        <button type="button" class="btn header-offcanvas-close" data-bs-dismiss="offcanvas">
+          <i class="fa-solid fa-x header-offcanvas-close-icon"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="offcanvas-body">
+
+      <div class="header-offcanvas-content">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <div class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                FUTBOL
+              </button>
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Trendyol Süper Lig</a></li>
+                  <li><a href="#">Trendyol 1. Lig</a></li>
+                  <li><a href="#">Ziraat Türkiye Kupası</a></li>
+                  <li><a href="#">İngiltere Premier Ligi</a></li>
+                  <li><a href="#">UEFA Şampiyonlar Ligi</a></li>
+                  <li><a href="#">UEFA Avrupa Ligi</a></li>
+                  <li><a href="#">UEFA Konferans Ligi</a></li>
+                  <li><a href="#">Almanya Bundesliga</a></li>
+                  <li><a href="#">Fransa Ligue 1</a></li>
+                  <li><a href="#">İspanya La Liga</a></li>
+                  <li><a href="#">İtalya Serie A</a></li>
+                  <li><a href="#">İngiltere Championship</a></li>
+                  <li><a href="#">Almanya 2. Bundesliga</a></li>
+                  <li><a href="#">Fransa Ligue 2</a></li>
+                  <li><a href="#">Avrupa Şampiyonası </a></li>
+                  <li><a href="#">beINsquad</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                BASKETBOL
+              </button>
+            </a>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Türkiye Sigorta Basketbol Süper Ligi</a></li>
+                  <li><a href="#">Turkish Airlines EuroLeague</a></li>
+                  <li><a href="#">NBA</a></li>
+                  <li><a href="#">FIBA Şampiyonlar Ligi</a></li>
+                  <li><a href="#">Avrupa Basketbol Şampiyonası</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                aria-controls="collapseThree">
+                FORMULA 1
+              </button>
+            </a>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                aria-controls="collapseFour">
+                TENİS
+              </button>
+            </a>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                DAHA ÇOK SPOR
+              </button>
+            </a>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Voleybol</a></li>
+                  <li><a href="#">Güreş</a></li>
+                  <li><a href="#">Atletizm</a></li>
+                  <li><a href="#">e-Spor</a></li>
+                  <li><a href="#">Dünya Kupası</a></li>
+                  <li><a href="#">Diğer Sporlar</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                ÖZETLER VE GOLLER
+              </button>
+            </a>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Trendyol Süper Lig Özetler</a></li>
+                  <li><a href="#">Trendyol Süper Lig Goller</a></li>
+                  <li><a href="#">Trendyol 1. Lig Özetler</a></li>
+                  <li><a href="#">İngiltere Premier Lig Özetler</a></li>
+                  <li><a href="#">Almanya Bundesliga Özetler</a></li>
+                  <li><a href="#">Fransa Ligue 1 Özetler</a></li>
+                  <li><a href="#">Almanya 2. Bundesliga Özetler</a></li>
+                  <li><a href="#">Fransa Ligue 2 Özetler</a></li>
+                  <li><a href="#">Türkiye Sigorta Basketbol Süper Ligi Özetler</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFive">
+                CANLI SKOR
+              </button>
+            </a>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                BEIN SQUAD
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-top offcanvas-top-search" tabindex="-1" id="offcanvasSearch"
+    aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ara">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-top offcanvas-top-icon" tabindex="-1" id="staticIcon"
+    aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <a class="icon-content" href="#">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a class="icon-content" href="#">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a class="icon-content" href="#">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a class="icon-content" href="#">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+
+
+
+
+  <div class="body-container">
+
+    <div class="body-content-slider-top">
+      <div class="swiper swiperTop">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="/">
+              <div>
+                <img src="assets/image/news.jpg" alt="image-1">
+              </div>
+              <div class="news-text-content">
+                <span class="news-title">UEFA Konferans Ligi</span>
+                <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="/">
+              <div>
+                <img src="assets/image/news.jpg" alt="image-1">
+              </div>
+              <div class="news-text-content">
+                <span class="news-title">UEFA Konferans Ligi</span>
+                <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="/">
+              <div>
+                <img src="assets/image/news.jpg" alt="image-1">
+              </div>
+              <div class="news-text-content">
+                <span class="news-title">UEFA Konferans Ligi</span>
+                <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="/">
+              <div>
+                <img src="assets/image/news.jpg" alt="image-1">
+              </div>
+              <div class="news-text-content">
+                <span class="news-title">UEFA Konferans Ligi</span>
+                <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="/">
+              <div>
+                <img src="assets/image/news.jpg" alt="image-1">
+              </div>
+              <div class="news-text-content">
+                <span class="news-title">UEFA Konferans Ligi</span>
+                <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="/">
+              <div>
+                <img src="assets/image/news.jpg" alt="image-1">
+              </div>
+              <div class="news-text-content">
+                <span class="news-title">UEFA Konferans Ligi</span>
+                <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-detay">
+      <div class="body-content-slider-bottom">
+        <div class="swiper swiper-bottom">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news3.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-slide-item" href="/">
+                <div>
+                  <img src="assets/image/news2.jpg" alt="image-1">
+                </div>
+                <div class="news-text-content">
+                  <span class="news-title">UEFA Konferans Ligi</span>
+                  <span class="news-text">Petrocub'un İstanbul'a gelişi ertelendi</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div thumbsSlider="" class="swiper body-content-thumb-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news1.jpg" alt="20231218125237" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news1.jpg" alt="20231218125237" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news1.jpg" alt="20231218125237" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news1.jpg" alt="20231218125237" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="body-content-slider-image" href="/">
+                <img src="assets/image/news2.jpg" alt="20231218125308" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-content-news">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <a class="news-content-item" href="/">
+              <div class="news-content-image-part">
+                <div class="news-content-image">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                </div>
+                <div class="news-content-icon">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="news-content-text-content">
+                <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                <span class="news-content-hashtag">Göztepe</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a class="news-content-item" href="/">
+              <div class="news-content-image-part">
+                <div class="news-content-image">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                </div>
+                <div class="news-content-icon">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="news-content-text-content">
+                <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                <span class="news-content-hashtag">Göztepe</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a class="news-content-item" href="/">
+              <div class="news-content-image-part">
+                <div class="news-content-image">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                </div>
+                <div class="news-content-icon">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="news-content-text-content">
+                <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                <span class="news-content-hashtag">Göztepe</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-content-slider-fikstur">
+        <div class="slider-top-fikstur">
+
+          <span class="slider-top-fikstur-header"> <a href="/"># FİKSTÜR</a></span>
+          
+          <form name="sport" class="form" id="form">
+            <div class="form-group">
+              <select name="sport" id="sport" class="dropdown">
+                <option selected>Trendyol Süper Lig</option>
+                <option value="1">Trendyol 1. Lig</option>
+                <option value="2">UEFA Şampiyonlar Ligi</option>
+                <option value="3">UEFA Avrupa Ligi</option>
+                <option value="4">İtalya Serie A</option>
+                <option value="5">Fransa Ligue 1</option>
+                <option value="6">İngiltere Premier Lig</option>
+                <option value="7">Almanya Bundesliga</option>
+                <option value="8">Turkish Airlines EuroLeague</option>
+                <option value="9">Türkiye Sigorta Basketbol Süper Ligi</option>
+              </select>
+              <span class="form-arrow"><i class="bx bx-chevron-down"></i></span>
+            </div>
+          </form>
+          
+          
+          <span class="slider-top-fikstur-date">
+            14. HAFTA
+          </span>
+
+        </div>
+
+        <div class="slider-bottom-fikstur">
+          <div class="row">
+
+            <div class="swiper swiperFikstur">
+
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content-detay">
+                      <div class="top-content-detay-takim">
+                        <a href="/">
+                          <span>ANT</span>
+                        </a>
+                        <a href="/">
+                          <span>SVS</span>
+                        </a>
+                      </div>
+                      <div class="top-content-detay-skor">
+                        <span>1</span>
+                        <a href="/">
+                          <span>-</span>
+                        </a>
+                        <span>2</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <a href="/">
+                      <span class="swiper-slide-bottom-date">29 Kas Cum 20:00</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-top">
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <img src="assets/image/club1.png" alt="image-1">
+                      </a>
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-top-content">
+                      <a href="/">
+                        <span>ANT</span>
+                        <span>-</span>
+                        <span>SVS</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide-bottom">
+                    <span class="swiper-slide-bottom-date">29 Kas Cum</span>
+                    <span class="swiper-slide-bottom-hour">20:00</span>
+                    <a href="/">
+                      <img src="assets/image/tod-logo.webp" alt="image-1">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-button-next-fikstur"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="swiper-button-prev-fikstur"><i class="fa-solid fa-chevron-left"></i></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="body-content-videos">
+
+        <div class="body-content-header">
+          # VİDEOLAR
+        </div>
+
+        <div class="body-content-videos-category" id="video-category">
+          <span class="category-item active">Trendyol Süper Lig</span>
+          <span class="category-item">Trendyol 1. Lig</span>
+          <span class="category-item">Almanya Bundesliga</span>
+          <span class="category-item">Fransa Ligue 1</span>
+          <span class="category-item">İngiltere Championship</span>
+          <span class="category-item">Almanya 2. Bundesliga</span>
+          <span class="category-item">Fransa Ligue 2</span>
+          <span class="category-item">Turkish Airlines EuroLeague</span>
+          <span class="category-item">Türkiye Sigorta Basketbol Süper Ligi</span>
+        </div>
+
+        <div class="body-content-news-content">
+          <div class="row">
+
+            <div class="col-7">
+              <a class="news-content-item-large" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="body-content-news-right col-5">
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="body-content-news-bottom">
+          <div class="row">
+
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="body-content-news-small-content">
+          <div class="row">
+
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="news-all-item">
+          <a href="/">
+            <span>Hepsini Gör <i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="body-content-slider-puan-durumu">
+
+        <div class="slider-top-puan-durumu">
+          <span class="slider-top-puan-durumu-header"> <a href="/"># PUAN DURUMU</a></span>
+
+          <form name="sport" class="form" id="form">
+            <div class="form-group">
+              <select name="sport" id="sport" class="dropdown">
+                <option selected>Trendyol Süper Lig</option>
+                <option value="1">Trendyol 1. Lig</option>
+                <option value="2">UEFA Şampiyonlar Ligi</option>
+                <option value="3">UEFA Avrupa Ligi</option>
+                <option value="4">İtalya Serie A</option>
+                <option value="5">Fransa Ligue 1</option>
+                <option value="6">İngiltere Premier Lig</option>
+                <option value="7">Almanya Bundesliga</option>
+                <option value="8">Turkish Airlines EuroLeague</option>
+                <option value="9">Türkiye Sigorta Basketbol Süper Ligi</option>
+              </select>
+              <span class="form-arrow"><i class="bx bx-chevron-down"></i></span>
+            </div>
+          </form>
+
+          <span class="slider-top-puan-durumu-date">
+            14. HAFTA
+          </span>
+        </div>
+
+        <div class="slider-bottom-puan-durumu">
+          <div class="row">
+            <div class="swiper swiperPuanDurumu">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <div class="swiper-slide-top-content">
+                      <div class="">
+                        <a href="/">
+                          <span>1</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide-center-content">
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-center-content">
+                      <div class="top-content-detay-takim">
+                        <a href="/">
+                          <span>50</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <div class="swiper-slide-top-content">
+                      <div class="">
+                        <a href="/">
+                          <span>2</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide-center-content">
+                      <a href="/">
+                        <img src="assets/image/club2.png" alt="image-1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide-center-content">
+                      <div class="top-content-detay-takim">
+                        <a href="/">
+                          <span>30</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="swiper-button-next-puan"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="swiper-button-prev-puan"><i class="fa-solid fa-chevron-left"></i></div>
+          </div>
+        </div>
+
+        <div class="puan-durumu-all-item">
+          <a href="/">
+            <span>Hepsini Gör <i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="body-content-haberler">
+
+        <div class="body-content-header">
+          # LİGLERDEN HABERLER
+        </div>
+
+        <div class="body-content-haberler-category" id="video-category">
+          <span class="category-item active">Trendyol Süper Lig</span>
+          <span class="category-item">Trendyol 1. Lig</span>
+          <span class="category-item">Almanya Bundesliga</span>
+          <span class="category-item">Fransa Ligue 1</span>
+          <span class="category-item">İngiltere Championship</span>
+          <span class="category-item">Almanya 2. Bundesliga</span>
+          <span class="category-item">Fransa Ligue 2</span>
+          <span class="category-item">Turkish Airlines EuroLeague</span>
+          <span class="category-item">Türkiye Sigorta Basketbol Süper Ligi</span>
+        </div>
+
+        <div class="body-content-news-content">
+          <div class="row">
+
+            <div class="col-7">
+              <a class="news-content-item-large" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="body-content-news-right col-5">
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="body-content-news-bottom">
+          <div class="row">
+
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="body-content-news-small-content">
+          <div class="row">
+
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="news-all-item">
+          <a href="/">
+            <span>Hepsini Gör <i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="body-content-foto-galeriler">
+
+        <div class="body-content-header">
+          # FOTO GALERİLER
+        </div>
+
+        <div class="body-content-photo-content">
+          <div class="row">
+
+            <div class="col-4">
+              <a class="photo-content-item-large" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="body-content-photo-right col-8">
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="photo-content-item col-3">
+                <a class="photo-content-item-content" href="/">
+                  <div class="photo-content-image-part">
+                    <div class="photo-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="photo-content-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div class="photo-content-text-content">
+                    <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="body-content-news-small-content">
+          <div class="row">
+
+            <div class="photo-content-item col-3">
+              <a class="photo-content-item-content" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="photo-content-item col-3">
+              <a class="photo-content-item-content" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="photo-content-item col-3">
+              <a class="photo-content-item-content" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="photo-content-item col-3">
+              <a class="photo-content-item-content" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="photo-content-item col-3">
+              <a class="photo-content-item-content" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="photo-content-item col-3">
+              <a class="photo-content-item-content" href="/">
+                <div class="photo-content-image-part">
+                  <div class="photo-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="photo-content-icon">
+                    <i class="fa-solid fa-camera"></i>
+                  </div>
+                </div>
+                <div class="photo-content-text-content">
+                  <span class="photo-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="photo-all-item">
+          <a href="/">
+            <span>Hepsini Gör <i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-content-tod">
+      <div class="body-content-tod-main">
+        <div class="body-content-tod-main-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-7 col-xl-8">
+                <div class="logo-container">
+                  <img src="https://media02.tr.beinsports.com/img/templates/tod-logo.webp" class="platform-img"
+                    alt="TOD-Logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-content-tod-small">
+        <img src="assets/image/TOD-SL-4-750x420.png" alt="TOD-Logo">
+      </div>
+
+    </div>
+
+    <div class="container container-detay">
+
+      <div class="body-content-news-video-liste">
+
+        <div class="body-content-header">
+          # VİDEO LİSTE
+        </div>
+
+        <div class="body-content-news">
+          <div class="row">
+
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="body-content-news-small-content">
+          <div class="row">
+
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="news-all-item">
+          <a href="/">
+            <span>Hepsini Gör <i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="body-content-programlar">
+
+        <div class="body-content-header">
+          # PROGRAMLAR
+        </div>
+
+        <div class="body-content-news-content">
+          <div class="row">
+
+            <div class="col-7">
+              <a class="news-content-item-large" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="body-content-news-right col-5">
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                    <span class="news-content-hashtag">Göztepe</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                    <span class="news-content-hashtag">Göztepe</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                    <span class="news-content-hashtag">Göztepe</span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-content-item col-6">
+                <a class="news-content-item-content" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                    <span class="news-content-hashtag">Göztepe</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="body-content-news-small-content">
+          <div class="row">
+
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-haftanin-golu">
+      <div class="body-content-haftanin-golu">
+        <div class="body-content-news">
+
+          <div class="body-content-header">
+            <img src="assets/image/clear-haftanin-golu.png" alt="image-1">
+          </div>
+
+          <div class="body-content-items">
+
+            <div class="body-content-item-content">
+              <a href="/">
+                <div class="news-content-image-part">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <p class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</p>
+              </a>
+            </div>
+
+            <div class="body-content-item-content">
+              <a href="/">
+                <div class="news-content-image-part">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <p class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</p>
+              </a>
+            </div>
+
+            <div class="body-content-item-content">
+              <a href="/">
+                <div class="news-content-image-part">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <p class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</p>
+              </a>
+            </div>
+
+            <div class="body-content-item-content">
+              <a href="/">
+                <div class="news-content-image-part">
+                  <img src="assets/image/news4.jpg" alt="image-1">
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <p class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</p>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container container-detay">
+
+      <div class="body-content-bunlari-kacirmayin">
+
+        <div class="body-content-header">
+          # BUNLARI KAÇIRMAYIN
+        </div>
+
+        <div class="body-content-news">
+          <div class="row">
+
+            <div class="col-4">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <div class="body-content-news-content-col">
+                <div class="row">
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="body-content-news-content-row">
+                <div class="row">
+                  <div class="news-content-item col-4">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-4">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="body-content-news-small-content">
+          <div class="row">
+
+            <div class="col-12 col-md-6">
+
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                </div>
+              </a>
+
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="body-content-news-content-col">
+                <div class="row">
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="news-content-item col-12">
+                    <a class="news-content-item-content" href="/">
+                      <div class="news-content-image-part">
+                        <div class="news-content-image">
+                          <img src="assets/image/news4.jpg" alt="image-1">
+                        </div>
+                        <div class="news-content-icon">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                      <div class="news-content-text-content">
+                        <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                        <span class="news-content-hashtag">Göztepe</span>
+
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <a class="news-content-item" href="/">
+                <div class="news-content-image-part">
+                  <div class="news-content-image">
+                    <img src="assets/image/news4.jpg" alt="image-1">
+                  </div>
+                  <div class="news-content-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="news-content-text-content">
+                  <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  <span class="news-content-hashtag">Göztepe</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12" style="display: flex;">
+              <div class="col-6 " style="padding-right: 12px;">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                    <span class="news-content-hashtag">Göztepe</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6" style="padding-left: 12px;">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                    <span class="news-content-hashtag">Göztepe</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container container-daha-fazla">
+
+        <div class="body-content">
+          <div class="body-content-header">
+            # BUNLARI KAÇIRMAYIN
+          </div>
+  
+          <div class="body-content-news-bottom">
+            <div class="row">
+    
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                    <div class="news-content-icon">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                <a class="news-content-item" href="/">
+                  <div class="news-content-image-part">
+                    <div class="news-content-image">
+                      <img src="assets/image/news4.jpg" alt="image-1">
+                    </div>
+                  </div>
+                  <div class="news-content-text-content">
+                    <span class="news-content-title">Mateusz Lis: "Türkçe öğrenmeye başlamalıyım"</span>
+                  </div>
+                </a>
+              </div>
+  
+            </div>
+            <div class="row">
+              <div class="content" id="content"></div>
+              <div class="loader" id="loader">Yükleniyor...</div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <footer class="footer-container">
+    <div class="container container-detay">
+
+      <div class="row footer-content-top">
+
+        <div class="footer-content col-12 col-md-3">
+          <div class="footer-content-image-part">
+            <div class="image-top">
+              <img src="assets/image/footer-logo.webp" alt="image-1" >
+            </div>
+            <div class="image-bottom">
+              <img src="assets/image/apple-store.svg" alt="image-1">
+              <img src="assets/image/google-play-store.svg" alt="image-1">
+            </div>
+          </div>
+
+          <div class="footer-content-list">
+            <ul>
+              <li class="list-text-content"><a href="/">Digiturk</a></li>
+              <li class="list-text-content"><a href="/">beIN MEDIA GROUP</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS United States</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS France</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Australia</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Hong Kong</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Thailand</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Philippines</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Indonesia</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Middle East and Africa</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-content-list col-12 col-md-3">
+          <ul>
+            <li class="list-title-content">FUTBOL</li>
+            <li class="list-text-content"><a href="/">Trendyol Süper Lig</a></li>
+            <li class="list-text-content"><a href="/">Trendyol 1. Lig</a></li>
+            <li class="list-text-content"><a href="/">Ziraat Türkiye Kupası</a></li>
+            <li class="list-text-content"><a href="/">İngiltere Premier Ligi</a></li>
+            <li class="list-text-content"><a href="/">UEFA Şampiyonlar Ligi</a></li>
+            <li class="list-text-content"><a href="/">UEFA Avrupa Ligi</a></li>
+            <li class="list-text-content"><a href="/">UEFA Konferans Ligi</a></li>
+            <li class="list-text-content"><a href="/">Almanya Bundesliga</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 1</a></li>
+            <li class="list-text-content"><a href="/">İspanya La Liga</a></li>
+            <li class="list-text-content"><a href="/">İtalya Serie A</a></li>
+            <li class="list-text-content"><a href="/">İngiltere Championship</a></li>
+            <li class="list-text-content"><a href="/">Almanya 2. Bundesliga</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 2</a></li>
+          </ul>
+
+        </div>
+
+        <div class="footer-content-list col-12 col-md-3">
+          <ul>
+            <li class="list-title-content">BASKETBOL</li>
+            <li class="list-text-content"><a href="/">Türkiye Sigorta Basketbol Süper Ligi</a></li>
+            <li class="list-text-content"><a href="/">NBA</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content-list col-12 col-md-3">
+          <ul>
+            <li class="list-title-content">MULTİMEDYA</li>
+            <li class="list-text-content"><a href="/">Trendyol Süper Lig Goller</a></li>
+            <li class="list-text-content"><a href="/">Trendyol Süper Lig Özetler</a></li>
+            <li class="list-text-content"><a href="/">Trendyol 1. Lig Özetler</a></li>
+            <li class="list-text-content"><a href="/">İngiltere Premier Lig Özetler</a></li>
+            <li class="list-text-content"><a href="/">Almanya Bundesliga Özetler</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 1 Özetler</a></li>
+            <li class="list-text-content"><a href="/">Almanya 2. Bundesliga Özetler</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 2 Özetler</a></li>
+            <li class="list-text-content"><a href="/">Tenis</a></li>
+            <li class="list-text-content"><a href="/">Video Liste</a></li>
+            <li class="list-text-content"><a href="/">Foto Galeriler</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="footer-content-bottom">
+          <ul class="footer-content-bottom-list">
+            <li class="bottom-list-item">Üyelik</li>
+            <li class="bottom-list-item">Yayın Akışı</li>
+            <li class="bottom-list-item">Reklam</li>
+            <li class="bottom-list-item">Site Sözleşmesi</li>
+            <li class="bottom-list-item">Künye ve İletişim</li>
+            <li class="bottom-list-item">Çerez Politikası</li>
+            <li class="bottom-list-item">Çerez Yönetimi</li>
+            <li class="bottom-list-item">Veri Sahibi Başvuru Formu</li>
+            <li class="bottom-list-item">beINTHEMOMENT Katılım Koşulları</li>
+            <li class="bottom-list-item">Nereden İzlerim</li>
+          </ul>
+          <div>
+            <p class="footer-content-bottom-copyright">Copyright 2020 Digiturk Bu siteyi kullanarak sözleşmeyi kabul etmiş sayılırsınız.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/data.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

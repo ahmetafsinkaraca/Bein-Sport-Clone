@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-AU-Compatible" content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="path/to/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+
+
+  <link rel="icon" href="../assets/image/BeIN-Sports-Logo.png" type="image/x-icon">
+  <link type="text/css" href="../assets/css/style.css" rel="stylesheet">
+  <title>Futbol ve Spor Haberleri | Maç Özetleri | Canlı Maç Sonuçları</title>
+</head>
+
+<body>
+
+
+  <!-- Burada header top kısmı var -->
+  <div class="header-container">
+    <div class="header-content-left">
+
+      <div class="header-content-offcanvas">
+        <div class="header-offcanvas">
+          <button class="btn header-sidebar-button" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <a class="header-logo" href="#">
+        <img src="../assets/image/logo-header.png" alt="">
+      </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg ">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              FUTBOL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Trendyol Süper Lig</a></li>
+              <li><a class="dropdown-item" href="#">Trendyol 1. Lig</a></li>
+              <li><a class="dropdown-item" href="#">Ziraat Türkiye Kupası</a></li>
+              <li><a class="dropdown-item" href="#">İngiltere Premier Ligi</a></li>
+              <li><a class="dropdown-item" href="#">UEFA Şampiyonlar Ligi</a></li>
+              <li><a class="dropdown-item" href="#">UEFA Avrupa Ligi</a></li>
+              <li><a class="dropdown-item" href="#">UEFA Konferans Ligi</a></li>
+              <li><a class="dropdown-item" href="#">Almanya Bundesliga</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 1</a></li>
+              <li><a class="dropdown-item" href="#">İspanya La Liga</a></li>
+              <li><a class="dropdown-item" href="#">İtalya Serie A</a></li>
+              <li><a class="dropdown-item" href="#">İngiltere Championship</a></li>
+              <li><a class="dropdown-item" href="#">Almanya 2. Bundesliga</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 2</a></li>
+              <li><a class="dropdown-item" href="#">Avrupa Şampiyonası</a></li>
+              <li><a class="dropdown-item" href="#">beINsquad</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              BASKETBOL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Türkiye Sigorta Basketbol Süper Ligi</a></li>
+              <li><a class="dropdown-item" href="#">Turkish Airlines EuroLeague</a></li>
+              <li><a class="dropdown-item" href="#">NBA</a></li>
+              <li><a class="dropdown-item" href="#">FIBA Şampiyonlar Ligi</a></li>
+              <li><a class="dropdown-item" href="#">Avrupa Basketbol Şampiyonası</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FORMULA 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TENİS</a>
+          </li>
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              DAHA ÇOK SPOR
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Voleybol</a></li>
+              <li><a class="dropdown-item" href="#">Güreş</a></li>
+              <li><a class="dropdown-item" href="#">Atletizm</a></li>
+              <li><a class="dropdown-item" href="#">e-Spor</a></li>
+              <li><a class="dropdown-item" href="#">Dünya Kupası</a></li>
+              <li><a class="dropdown-item" href="#">Diğer Sporlar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown-header">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ÖZETLER VE GOLLER
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Trendyol Süper Lig Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Trendyol Süper Lig Goller</a></li>
+              <li><a class="dropdown-item" href="#">Trendyol 1. Lig Özetler</a></li>
+              <li><a class="dropdown-item" href="#">İngiltere Premier Lig Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Almanya Bundesliga Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 1 Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Almanya 2. Bundesliga Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Fransa Ligue 2 Özetler</a></li>
+              <li><a class="dropdown-item" href="#">Türkiye Sigorta Basketbol Süper Ligi Özetler</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CANLI SKOR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BEIN SQUAD</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="header-content-right">
+      <div class="header-icon">
+        <a class="navbar-brand " href="#"> <img src="../assets/image/live.png" alt="">
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a class="icon-content" href="#">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+      <div class="header-content-offcanvas">
+        <div class="header-offcanvas">
+          <button class="btn header-sidebar-button" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticIcon" aria-controls="offcanvasTop">
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+      </div>
+      <div class="header-search">
+        <button type="button" class="btn search-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+          aria-controls="offcanvasTop">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- List kısmı -->
+  <div class="offcanvas offcanvas-start header-offcanvas-container" tabindex="-1" id="staticBackdrop"
+    aria-labelledby="staticBackdropLabel" data-bs-auto-open="false">
+
+    <div class="header-offcanvas-top">
+      <div class="header-offcanvas-content-close">
+        <button type="button" class="btn header-offcanvas-close" data-bs-dismiss="offcanvas">
+          <i class="fa-solid fa-x header-offcanvas-close-icon"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="offcanvas-body">
+
+      <div class="header-offcanvas-content">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <div class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                FUTBOL
+              </button>
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Trendyol Süper Lig</a></li>
+                  <li><a href="#">Trendyol 1. Lig</a></li>
+                  <li><a href="#">Ziraat Türkiye Kupası</a></li>
+                  <li><a href="#">İngiltere Premier Ligi</a></li>
+                  <li><a href="#">UEFA Şampiyonlar Ligi</a></li>
+                  <li><a href="#">UEFA Avrupa Ligi</a></li>
+                  <li><a href="#">UEFA Konferans Ligi</a></li>
+                  <li><a href="#">Almanya Bundesliga</a></li>
+                  <li><a href="#">Fransa Ligue 1</a></li>
+                  <li><a href="#">İspanya La Liga</a></li>
+                  <li><a href="#">İtalya Serie A</a></li>
+                  <li><a href="#">İngiltere Championship</a></li>
+                  <li><a href="#">Almanya 2. Bundesliga</a></li>
+                  <li><a href="#">Fransa Ligue 2</a></li>
+                  <li><a href="#">Avrupa Şampiyonası </a></li>
+                  <li><a href="#">beINsquad</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                BASKETBOL
+              </button>
+            </a>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Türkiye Sigorta Basketbol Süper Ligi</a></li>
+                  <li><a href="#">Turkish Airlines EuroLeague</a></li>
+                  <li><a href="#">NBA</a></li>
+                  <li><a href="#">FIBA Şampiyonlar Ligi</a></li>
+                  <li><a href="#">Avrupa Basketbol Şampiyonası</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                aria-controls="collapseThree">
+                FORMULA 1
+              </button>
+            </a>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                aria-controls="collapseFour">
+                TENİS
+              </button>
+            </a>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                DAHA ÇOK SPOR
+              </button>
+            </a>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Voleybol</a></li>
+                  <li><a href="#">Güreş</a></li>
+                  <li><a href="#">Atletizm</a></li>
+                  <li><a href="#">e-Spor</a></li>
+                  <li><a href="#">Dünya Kupası</a></li>
+                  <li><a href="#">Diğer Sporlar</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                ÖZETLER VE GOLLER
+              </button>
+            </a>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Trendyol Süper Lig Özetler</a></li>
+                  <li><a href="#">Trendyol Süper Lig Goller</a></li>
+                  <li><a href="#">Trendyol 1. Lig Özetler</a></li>
+                  <li><a href="#">İngiltere Premier Lig Özetler</a></li>
+                  <li><a href="#">Almanya Bundesliga Özetler</a></li>
+                  <li><a href="#">Fransa Ligue 1 Özetler</a></li>
+                  <li><a href="#">Almanya 2. Bundesliga Özetler</a></li>
+                  <li><a href="#">Fransa Ligue 2 Özetler</a></li>
+                  <li><a href="#">Türkiye Sigorta Basketbol Süper Ligi Özetler</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFive">
+                CANLI SKOR
+              </button>
+            </a>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                BEIN SQUAD
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-top offcanvas-top-search" tabindex="-1" id="offcanvasSearch"
+    aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ara">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-top offcanvas-top-icon" tabindex="-1" id="staticIcon"
+    aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <a class="icon-content" href="#">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a class="icon-content" href="#">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a class="icon-content" href="#">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a class="icon-content" href="#">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+
+
+  <div class="body-container-page-2">
+    <div class="container container-detay">
+
+      <div class="body-content-select">
+
+        <form name="sport" class="form form-detay" id="form">
+          <div class="form-group">
+            <select name="sport" id="sport" class="dropdown">
+              <option value="1">Trendyol Süper Lig</option>
+              <option value="1">Trendyol 1. Lig</option>
+              <option value="2">UEFA Şampiyonlar Ligi</option>
+              <option value="3">UEFA Avrupa Ligi</option>
+              <option value="4">İtalya Serie A</option>
+              <option value="5">Fransa Ligue 1</option>
+              <option value="6">İngiltere Premier Lig</option>
+              <option value="7">Almanya Bundesliga</option>
+              <option value="8">Turkish Airlines EuroLeague</option>
+              <option value="9">Türkiye Sigorta Basketbol Süper Ligi</option>
+            </select>
+            <span class="form-arrow-detay"><i class="bx bx-chevron-down"></i></span>
+          </div>
+        </form>
+
+        <form name="sport" class="form" id="form">
+          <div class="form-group">
+            <select name="sport" id="sport" class="dropdown">
+              <option selected>2024/2025</option>
+              <option value="1">2023/2024</option>
+              <option value="2">2022/2023</option>
+              <option value="3">2021/2022</option>
+              <option value="4">2020/2021</option>
+              <option value="5">2019/2020</option>
+              <option value="6">2018/2019</option>
+              <option value="7">2017/2018</option>
+              <option value="8">2016/2017</option>
+            </select>
+            <span class="form-arrow"><i class="bx bx-chevron-down"></i></span>
+          </div>
+        </form>
+
+        <form name="sport" class="form" id="form">
+          <div class="form-group">
+            <select name="sport" id="sport" class="dropdown">
+              <option selected>1 .Hafta</option>
+              <option value="1">2 .Hafta</option>
+              <option value="2">3 .Hafta</option>
+              <option value="3">4 .Hafta</option>
+              <option value="4">5 .Hafta</option>
+              <option value="5">6 .Hafta</option>
+              <option value="6">7 .Hafta</option>
+              <option value="7">8 .Hafta</option>
+              <option value="8">9 .Hafta</option>
+              <option value="9">10 .Hafta</option>
+            </select>
+            <span class="form-arrow"><i class="bx bx-chevron-down"></i></span>
+          </div>
+        </form>
+
+      </div>
+
+      <div class="body-content-items">
+
+        <div class="body-content-item">
+
+          <div class="body-content-top">
+
+            <div class="body-content-item-image">
+              <img src="../assets/image/club1.png" alt="image-1">
+              <span>Antalyaspor</span>
+              <span class="body-content-text-small">1</span>
+            </div>
+
+            <div class="body-content-text">
+              <div class="body-content-text-top">
+                <span class="text-number">1</span>
+                <span class="text-line">-</span>
+                <span class="text-number">0</span>
+              </div>
+              <div class="body-content-text-middle">
+                <span>9 Aralık 2024, Pazartesi, 20:00</span>
+              </div>
+              <div class="body-content-text-middle">
+                <a href="/">
+                  <div class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                  <div>
+                    <span>ÖZETİ İZLE</span>
+                  </div>
+                </a>
+              </div>
+              <div class="body-content-text-bottom">
+                <a href="/">
+                  <img src="../assets/image/share.7fca599c.svg" alt="image-1">
+                  <span>Paylaş</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="body-content-text-small">
+
+              <div class="body-content-text-top">
+                <span>9 Aralık 2024, Pazartesi, 20:00</span>
+                <a href="/">
+                  <div class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="body-content-text-bottom">
+                <span>-</span>
+                <a href="/">
+                  <img src="../assets/image/share.7fca599c.svg" alt="image-1">
+                  <span>Paylaş</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="body-content-item-image">
+              <img src="../assets/image/club2.png" alt="image-1">
+              <span>Sivasspor</span>
+              <span class="body-content-text-small">0</span>
+            </div>
+
+          </div>
+
+          <div class="body-content-line"></div>
+
+
+          <div class="body-content-bottom">
+            <div id="content1" class="content"></div>
+          </div>
+
+        </div>
+
+        <div class="body-content-item">
+
+          <div class="body-content-top">
+
+            <div class="body-content-item-image">
+              <img src="../assets/image/club1.png" alt="image-1">
+              <span>Antalyaspor</span>
+              <span class="body-content-text-small">1</span>
+            </div>
+
+            <div class="body-content-text">
+              <div class="body-content-text-top">
+                <span class="text-number">1</span>
+                <span class="text-line">-</span>
+                <span class="text-number">0</span>
+              </div>
+              <div class="body-content-text-middle">
+                <span>9 Aralık 2024, Pazartesi, 20:00</span>
+              </div>
+              <div class="body-content-text-middle">
+                <a href="/">
+                  <div class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                  <div>
+                    <span>ÖZETİ İZLE</span>
+                  </div>
+                </a>
+              </div>
+              <div class="body-content-text-bottom">
+                <a href="/">
+                  <img src="../assets/image/share.7fca599c.svg" alt="image-1">
+                  <span>Paylaş</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="body-content-text-small">
+
+              <div class="body-content-text-top">
+                <span>9 Aralık 2024, Pazartesi, 20:00</span>
+                <a href="/">
+                  <div class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="body-content-text-bottom">
+                <span>-</span>
+                <a href="/">
+                  <img src="../assets/image/share.7fca599c.svg" alt="image-1">
+                  <span>Paylaş</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="body-content-item-image">
+              <img src="../assets/image/club2.png" alt="image-1">
+              <span>Sivasspor</span>
+              <span class="body-content-text-small">0</span>
+            </div>
+
+          </div>
+
+          <div class="body-content-line"></div>
+
+
+          <div class="body-content-bottom">
+            <div id="content2" class="content"></div>
+          </div>
+
+        </div>
+
+        <div class="body-content-item">
+
+          <div class="body-content-top">
+
+            <div class="body-content-item-image">
+              <img src="../assets/image/club1.png" alt="image-1">
+              <span>Antalyaspor</span>
+              <span class="body-content-text-small">1</span>
+            </div>
+
+            <div class="body-content-text">
+              <div class="body-content-text-top">
+                <span class="text-number">1</span>
+                <span class="text-line">-</span>
+                <span class="text-number">0</span>
+              </div>
+              <div class="body-content-text-middle">
+                <span>9 Aralık 2024, Pazartesi, 20:00</span>
+              </div>
+              <div class="body-content-text-middle">
+                <a href="/">
+                  <div class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                  <div>
+                    <span>ÖZETİ İZLE</span>
+                  </div>
+                </a>
+              </div>
+              <div class="body-content-text-bottom">
+                <a href="/">
+                  <img src="../assets/image/share.7fca599c.svg" alt="image-1">
+                  <span>Paylaş</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="body-content-text-small">
+
+              <div class="body-content-text-top">
+                <span>9 Aralık 2024, Pazartesi, 20:00</span>
+                <a href="/">
+                  <div class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="body-content-text-bottom">
+                <span>-</span>
+                <a href="/">
+                  <img src="../assets/image/share.7fca599c.svg" alt="image-1">
+                  <span>Paylaş</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="body-content-item-image">
+              <img src="../assets/image/club2.png" alt="image-1">
+              <span>Sivasspor</span>
+              <span class="body-content-text-small">0</span>
+            </div>
+
+          </div>
+
+          <div class="body-content-line"></div>
+
+
+          <div class="body-content-bottom">
+            <div id="content3" class="content"></div>
+          </div>
+
+        </div>
+        
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <footer class="footer-container">
+    <div class="container container-detay">
+
+      <div class="row footer-content-top">
+
+        <div class="footer-content col-12 col-md-3">
+          <div class="footer-content-image-part">
+            <div class="image-top">
+              <img src="../assets/image/footer-logo.webp" alt="image-1">
+            </div>
+            <div class="image-bottom">
+              <img src="../assets/image/apple-store.svg" alt="image-1">
+              <img src="../assets/image/google-play-store.svg" alt="image-1">
+            </div>
+          </div>
+
+          <div class="footer-content-list">
+            <ul>
+              <li class="list-text-content"><a href="/">Digiturk</a></li>
+              <li class="list-text-content"><a href="/">beIN MEDIA GROUP</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS United States</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS France</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Australia</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Hong Kong</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Thailand</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Philippines</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Indonesia</a></li>
+              <li class="list-text-content"><a href="/">beIN SPORTS Middle East and Africa</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-content-list col-12 col-md-3">
+          <ul>
+            <li class="list-title-content">FUTBOL</li>
+            <li class="list-text-content"><a href="/">Trendyol Süper Lig</a></li>
+            <li class="list-text-content"><a href="/">Trendyol 1. Lig</a></li>
+            <li class="list-text-content"><a href="/">Ziraat Türkiye Kupası</a></li>
+            <li class="list-text-content"><a href="/">İngiltere Premier Ligi</a></li>
+            <li class="list-text-content"><a href="/">UEFA Şampiyonlar Ligi</a></li>
+            <li class="list-text-content"><a href="/">UEFA Avrupa Ligi</a></li>
+            <li class="list-text-content"><a href="/">UEFA Konferans Ligi</a></li>
+            <li class="list-text-content"><a href="/">Almanya Bundesliga</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 1</a></li>
+            <li class="list-text-content"><a href="/">İspanya La Liga</a></li>
+            <li class="list-text-content"><a href="/">İtalya Serie A</a></li>
+            <li class="list-text-content"><a href="/">İngiltere Championship</a></li>
+            <li class="list-text-content"><a href="/">Almanya 2. Bundesliga</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 2</a></li>
+          </ul>
+
+        </div>
+
+        <div class="footer-content-list col-12 col-md-3">
+          <ul>
+            <li class="list-title-content">BASKETBOL</li>
+            <li class="list-text-content"><a href="/">Türkiye Sigorta Basketbol Süper Ligi</a></li>
+            <li class="list-text-content"><a href="/">NBA</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content-list col-12 col-md-3">
+          <ul>
+            <li class="list-title-content">MULTİMEDYA</li>
+            <li class="list-text-content"><a href="/">Trendyol Süper Lig Goller</a></li>
+            <li class="list-text-content"><a href="/">Trendyol Süper Lig Özetler</a></li>
+            <li class="list-text-content"><a href="/">Trendyol 1. Lig Özetler</a></li>
+            <li class="list-text-content"><a href="/">İngiltere Premier Lig Özetler</a></li>
+            <li class="list-text-content"><a href="/">Almanya Bundesliga Özetler</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 1 Özetler</a></li>
+            <li class="list-text-content"><a href="/">Almanya 2. Bundesliga Özetler</a></li>
+            <li class="list-text-content"><a href="/">Fransa Ligue 2 Özetler</a></li>
+            <li class="list-text-content"><a href="/">Tenis</a></li>
+            <li class="list-text-content"><a href="/">Video Liste</a></li>
+            <li class="list-text-content"><a href="/">Foto Galeriler</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="footer-content-bottom">
+          <ul class="footer-content-bottom-list">
+            <li class="bottom-list-item">Üyelik</li>
+            <li class="bottom-list-item">Yayın Akışı</li>
+            <li class="bottom-list-item">Reklam</li>
+            <li class="bottom-list-item">Site Sözleşmesi</li>
+            <li class="bottom-list-item">Künye ve İletişim</li>
+            <li class="bottom-list-item">Çerez Politikası</li>
+            <li class="bottom-list-item">Çerez Yönetimi</li>
+            <li class="bottom-list-item">Veri Sahibi Başvuru Formu</li>
+            <li class="bottom-list-item">beINTHEMOMENT Katılım Koşulları</li>
+            <li class="bottom-list-item">Nereden İzlerim</li>
+          </ul>
+          <div>
+            <p class="footer-content-bottom-copyright">Copyright 2020 Digiturk Bu siteyi kullanarak sözleşmeyi kabul
+              etmiş sayılırsınız.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+  <script type="text/javascript" src="../assets/js/index.js"></script>
+  <script type="text/javascript" src="../assets/js/data3.js"></script>
+
+</body>
+
+</html>
